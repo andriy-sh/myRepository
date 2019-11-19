@@ -67,9 +67,12 @@ for capital, domain in capital.items():
     print(tmp2 % (capital, domain))
 
 
+tmpl = 'Domain of {} is {}, the Capital of {} is {}'
+print(tmpl)
+
 for country, domain in country.items():
     for capital, domain in capital.items():
-    Domain of {} is {}. The Capital of {} is {}.format(country.key(), country.value(), capital.key(), capital.value())
+        tmpl.format(country.key(), country.value(), capital.key(), capital.value())
 
 d = {1: 23, 2: 34, 3: 45}
 print(d)
