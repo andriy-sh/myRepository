@@ -19,3 +19,6 @@ x.read(5)
 
 q = open('new_file', 'a')
 print(q)
+
+
+

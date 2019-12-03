@@ -69,3 +69,16 @@ print('\n', '*' * 100, '\n')
 #
 
 # HOMEWORK 2.7
+
+while True:
+    year = input("Enter the year: ")
+    if year.strip() == 'stop': break
+
+    if int(year) % 4 == 0:
+        print("Yes!!! You are win! >>", year)
+    else:
+        print("Loser!!!")
+    continue
+
+
+print(year)
